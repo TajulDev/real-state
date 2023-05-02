@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =====sidebar css start here===== */
+.sidebar {
+    padding: 35px 32px;
+    border: 1px dotted #EBEBEB;
+    /* float: left; */
+    /* margin-right: 26px; */
+}
+
+.sidebar__logo {
+    margin-bottom: 60px;
+}
+
+.sidebar ul {
+    position: relative;
+    /* height: 80vh;   */
+}
+
+.sidebar__items {
+    height: 90%;
+}
+
+.sidebar__items ul li {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.sidebar__items ul li img {
+    margin-right: 15px;
+}
+
+
+
+/* =====real_state__nav css start here===== */
+.real_state__nav {
+    padding: 30px 30px 25px;
+    border-bottom: 1px solid #E6EAED;
+}
+
+.nav__left h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101136;
+}
+
+.nav__left h3 img {
+    margin-right: 10px;
+}
+
+.nav__right .top_up {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.nav__right .top_up h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #101136;
+}
+
+.nav__right .top_up p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575A7B;
+}
+
+.nav__right .top_up button {
+    background-color: #F3DEDF;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #DB0F19;
+    padding: 10px 28px;
+    border: none;
+}
+
+.real_state_container {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.real_state_header {
+    text-align: center;
+}
+
+.real_state_header h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #101136;
+}
+
+.real_state_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.real_state_card {
+    background: #FFFFFF;
+    border: 1px solid #E6EAED;
+    border-radius: 10px;
+}
+
+.real_state_card .card_header {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background: #FAFAFA;
+    border-radius: 9px 9px 0px 0px;
+    padding: 12px 15px;
+}
+
+.real_state_card p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #575A7B;
+    padding: 20px 15px 36px;
+}
