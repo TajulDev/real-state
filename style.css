@@ -32,7 +32,7 @@ a {
 /* =====sidebar css start here===== */
 .sidebar {
     padding: 35px 32px;
-    border: 1px dotted #EBEBEB;
+    border: 1px dashed #EBEBEB;
     /* float: left; */
     /* margin-right: 26px; */
 }
@@ -58,19 +58,22 @@ a {
 .sidebar__items ul li img {
     margin-right: 15px;
 }
+.sidebar__items ul:last-child li img {
+    margin-right: 0px !important;
+}
 
 .sidebar_real_state {
     background: #FFFFFF;
     border: 1px solid #E6EAED;
     border-radius: 10px;
-    /* width: 210px; */
+    width: 210px;
 }
 
 .sidebar_real_state .header {
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 10px 13px;
+    padding: 10px 0px;
     justify-content: center;
     font-weight: 500;
     font-size: 16px;
@@ -90,6 +93,7 @@ a {
     line-height: 20px;
     color: #575A7B;
     margin-bottom: 16px;
+    max-width: 25ch;
 }
 
 .sidebar_real_state .body button {
@@ -198,9 +202,18 @@ a {
     display: flex;
     gap: 5px;
     align-items: center;
+    justify-content: center;
     background: #FAFAFA;
     border-radius: 9px 9px 0px 0px;
-    padding: 12px 15px;
+    padding: 12px 0px;
+
+}
+
+.real_state_card .card_header h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101136;
 }
 
 .real_state_card p {
@@ -220,6 +233,7 @@ a {
     padding: 19px 20px;
     max-width: 718px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .ans_send input {
