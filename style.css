@@ -79,8 +79,9 @@ a {
     color: #101136;
     border-bottom: 1px solid #E6EAED;
 }
+
 .sidebar_real_state .header img {
-  margin-right: 0px !important;
+    margin-right: 0px !important;
 }
 
 .sidebar_real_state .body {
@@ -247,7 +248,11 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    color: #575A7B!important;
+    color: #575A7B !important;
+}
+
+.ans_send input:focus-visible {
+    outline: none !important;
 }
 
 .ans_send img {
@@ -289,9 +294,10 @@ a {
 }
 
 @media screen and (max-width:768px) {
-    .nav__inner{
-        gap:20px;
+    .nav__inner {
+        gap: 20px;
     }
+
     .real_state_cards {
         grid-template-columns: repeat(1, 1fr);
         margin-right: 30px;
@@ -307,7 +313,8 @@ a {
         margin-right: 30px;
         margin-left: 30px;
     }
-    .ans_send{
-        margin: 0 30px  40px 30px;
+
+    .ans_send {
+        margin: 0 30px 40px 30px;
     }
 }
