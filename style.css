@@ -58,9 +58,7 @@ a {
 .sidebar__items ul li img {
     margin-right: 15px;
 }
-.sidebar__items ul:last-child li img {
-    margin-right: 0px !important;
-}
+
 
 .sidebar_real_state {
     background: #FFFFFF;
@@ -80,6 +78,9 @@ a {
     line-height: 22px;
     color: #101136;
     border-bottom: 1px solid #E6EAED;
+}
+.sidebar_real_state .header img {
+  margin-right: 0px !important;
 }
 
 .sidebar_real_state .body {
