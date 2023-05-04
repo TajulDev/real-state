@@ -31,10 +31,13 @@ a {
 
 /* =====sidebar css start here===== */
 .sidebar {
-    padding: 35px 32px;
-    border: 1px dashed #EBEBEB;
+    padding: 15px;
+    border: 1px solid #EBEBEB;
     /* float: left; */
     /* margin-right: 26px; */
+}
+.sidebar__items ul li:last-child {
+    margin-bottom: 15px;
 }
 
 .sidebar__logo {
